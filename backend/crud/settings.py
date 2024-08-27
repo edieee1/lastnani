@@ -42,8 +42,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000/'
+    'http://localhost:3000',
+    'http://192.168.1.69:3000',
 ]
+CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'crud.urls'
 
